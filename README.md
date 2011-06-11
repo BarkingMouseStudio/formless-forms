@@ -3,6 +3,15 @@ Formless Forms
 
 A basic implementation of a form without a form.
 
+
+Related Links
+-------------
+
+* [Slideshare Slides](http://www.slideshare.net/danielleswank/forms-a-ux-manifesto)
+
+* [Working Demo](http://freeflow.github.com/formless-forms/)
+
+
 Abbreviated Steps
 -----------------
 
