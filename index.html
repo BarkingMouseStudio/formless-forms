@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Demo</title>
+    <title>Formless Forms Demo</title>
 
     <link media="all" href="styles.css" type="text/css" rel="stylesheet" />
     <script src="dependencies/jquery.js"></script>
@@ -12,12 +12,21 @@
 </head>
 <body>
 
-  <div id="content-wrapper">
-    <textarea id="content"></textarea>
-  </div>
-  <div id="metadata-wrapper">
-    <dl id="metadata">
-    </dl>
+  <h1>Formless Forms</h1>
+  <p>A basic implementation of a form without a form.</p>
+
+  <h2>Instructions</h2>
+  <p>Just start typing! Each non-whitespace line represents a "form field".</p>
+  <p>The date field is optional. It will try to parse that field as a date. If it succeeds we put it in the date field. If it fails we treat it as part of the body and ignore the date field.</p>
+
+  <div id="body-wrapper">
+    <div id="content-wrapper">
+      <textarea id="content"></textarea>
+    </div>
+
+    <div id="metadata-wrapper">
+      <dl id="metadata"></dl>
+    </div>
   </div>
 
 </body>
